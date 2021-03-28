@@ -1,0 +1,6 @@
+students = int(input('Введите количество школьников: '))
+apples = int(input('Введите количество яблок: '))
+appleforstudent = (apples // students)
+print(appleforstudent, 'яблок каждому ученику')
+appleinbasket = (apples % students)
+print(appleinbasket, 'яблок остается в корзине')
